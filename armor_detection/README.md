@@ -13,6 +13,7 @@
 ## 使用方法
 1. 编译项目：
     ```sh
+    mkdir build
     cd build
     cmake ..
     make
