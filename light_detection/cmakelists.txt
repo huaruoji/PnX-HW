@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 find_package(OpenCV REQUIRED)
 
 # 将源文件添加到项目中
-add_executable(armor armor.cpp)
+add_executable(light_detection light_detection.cpp)
 
 # 链接 OpenCV 库
-target_link_libraries(armor ${OpenCV_LIBS})
+target_link_libraries(light_detection ${OpenCV_LIBS})

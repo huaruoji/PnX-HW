@@ -1,4 +1,4 @@
-# Armor Detection
+# Light Bar Detection
 
 该模块实现了灯条检测功能。
 
@@ -22,9 +22,9 @@
     ```
 2. 运行程序：
     ```sh
-    ./armor
+    ./light_detection
     ```
 
 ## 代码结构
-- `armor.cpp`: 主程序文件，包含灯条检测的实现。
+- `light_detection.cpp`: 主程序文件，包含灯条检测的实现。
 - `CMakeLists.txt`: CMake 构建配置文件。
