@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+
+# 项目信息
+project(LightBarDetection)
+
+# 设置 C++ 标准
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# 查找 OpenCV 包
+find_package(OpenCV REQUIRED)
+
+# 将源文件添加到项目中
+add_executable(armor armor.cpp)
+
+# 链接 OpenCV 库
+target_link_libraries(armor ${OpenCV_LIBS})
